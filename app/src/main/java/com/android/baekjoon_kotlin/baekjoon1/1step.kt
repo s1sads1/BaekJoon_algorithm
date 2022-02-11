@@ -115,9 +115,36 @@ import kotlin.math.pow
 /**
  1008번
  */
+//fun main(args:Array<String>) {
+//    var sc : Scanner = Scanner(System.`in`)
+//    var A = sc.nextDouble()
+//    var B = sc.nextDouble()
+//    print((A/B).toDouble())
+//}
+
+/**
+ 10869번
+ */
+//fun main(args:Array<String>) {
+//    var sc : Scanner = Scanner(System.`in`)
+//    var A = sc.nextInt()
+//    var B = sc.nextInt()
+//
+//    System.out.println(A+B)
+//    System.out.println(A-B)
+//    System.out.println(A*B)
+//    System.out.println(A/B)
+//    System.out.println(A%B)
+//
+//}
+
+/**
+ 10926번
+ */
 fun main(args:Array<String>) {
     var sc : Scanner = Scanner(System.`in`)
-    var A = sc.nextDouble()
-    var B = sc.nextDouble()
-    print((A/B).toDouble())
+    var A = sc.nextLine()
+
+    println("${A}??!")
+
 }
