@@ -113,7 +113,7 @@ import kotlin.math.pow
 //}
 
 /**
- 1008번
+1008번
  */
 //fun main(args:Array<String>) {
 //    var sc : Scanner = Scanner(System.`in`)
@@ -123,7 +123,7 @@ import kotlin.math.pow
 //}
 
 /**
- 10869번
+10869번
  */
 //fun main(args:Array<String>) {
 //    var sc : Scanner = Scanner(System.`in`)
@@ -139,12 +139,38 @@ import kotlin.math.pow
 //}
 
 /**
- 10926번
+10926번
+ */
+//fun main(args:Array<String>) {
+//    var sc : Scanner = Scanner(System.`in`)
+//    var A = sc.nextLine()
+//
+//    println("${A}??!")
+//
+//}
+
+/**
+18108번
+ */
+//fun main(args: Array<String>) {
+//    var sc : Scanner = Scanner(System.`in`)
+//    var A = sc.nextInt()
+//
+//    print(A-543)
+//
+//}
+
+/**
+10430번
  */
 fun main(args:Array<String>) {
     var sc : Scanner = Scanner(System.`in`)
-    var A = sc.nextLine()
+    var A = sc.nextInt()
+    var B = sc.nextInt()
+    var C = sc.nextInt()
 
-    println("${A}??!")
-
+    println((A+B)%C)
+    println(((A%C) + (B%C))%C)
+    println((A*B)%C)
+    println(((A%C)*(B%C))%C)
 }
