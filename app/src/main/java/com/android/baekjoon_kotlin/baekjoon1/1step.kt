@@ -163,14 +163,40 @@ import kotlin.math.pow
 /**
 10430번
  */
-fun main(args:Array<String>) {
-    var sc : Scanner = Scanner(System.`in`)
-    var A = sc.nextInt()
-    var B = sc.nextInt()
-    var C = sc.nextInt()
+//fun main(args:Array<String>) {
+//    var sc : Scanner = Scanner(System.`in`)
+//    var A = sc.nextInt()
+//    var B = sc.nextInt()
+//    var C = sc.nextInt()
+//
+//    println((A+B)%C)
+//    println(((A%C) + (B%C))%C)
+//    println((A*B)%C)
+//}
 
-    println((A+B)%C)
-    println(((A%C) + (B%C))%C)
-    println((A*B)%C)
-    println(((A%C)*(B%C))%C)
+//fun main(args:Array<String>) {
+//    val str = "Hello"
+//    // this
+//    str.run {
+//        println("The string's length: $length")
+//        //println("The string's length: ${this.length}") // does the same
+//    }
+//
+//    // it
+//    str.let {
+//        println("The string's length is ${it.length}")
+//    }
+//}
+
+fun main() {
+    val numberList = mutableListOf<Double>()
+    numberList.also { println("Populating the list") }
+        .apply {
+            add(2.71)
+            add(3.14)
+            add(1.0)
+        }
+        .also { println("Sorting the list") }
+        .sort()
+    println(numberList)
 }
